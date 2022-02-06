@@ -1,26 +1,41 @@
 a = [int(_) for _ in input().split()]
 b = [int(_) for _ in input().split()]
 c = [int(_) for _ in input().split()]
-one = 0
-two = 0
-for aa in a:
-    for bb in b:
-        for cc in c:
-            if aa == 1:
-                one += 1
-            elif aa == 2:
-                two += 1
-            if bb == 1:
-                one += 1
-            elif bb == 2:
-                two += 1
-            if cc == 1:
-                one += 1
-            elif cc == 2:
-                two += 1
-if one > two:
+winner = 0
+is_winner = False
+
+# rows
+if a[0] == b[0] == c[0] != 0:
+    is_winner = True
+    winner = a[0]
+elif a[1] == b[1] == c[1] != 0:
+    is_winner = True
+    winner = a[1]
+elif a[2] == b[2] == c[2] != 0:
+    is_winner = True
+    winner = a[2]
+
+# check columns
+if a[0] == a[1] == a[2] != 0:
+    is_winner = True
+    winner = a[0]
+elif b[0] == b[1] == b[2] != 0:
+    is_winner = True
+    winner = b[0]
+elif c[0] == c[1] == c[2] != 0:
+    is_winner = True
+    winner = c[0]
+
+if a[0] == b[1] == c[2] != 0:
+    is_winner = True
+    winner = a[0]
+elif a[2] == b[1] == c[0] != 0:
+    is_winner = True
+    winner = a[2]
+
+if winner == 1 and is_winner:
     print("First player won")
-elif one < two:
+elif winner == 2 and is_winner:
     print("Second player won")
-elif one == two:
+else:
     print("Draw!")

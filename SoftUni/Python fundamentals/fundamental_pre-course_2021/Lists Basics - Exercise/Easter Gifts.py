@@ -1,27 +1,24 @@
 lst = input().split()
 item = ''
-ite = ''
+ite = input()
 while ite != 'No Money':
-    ite = input()
     item = ite.split()
     item0 = item[0]
     item1 = item[1]
     if item0 == 'OutOfStock':
-        for a in lst:
-            if a == item1:
-                lst.remove(item1)
+        for a in range(len(lst)):
+            if lst[a] == item1:
+                lst[a] = 'None'
     elif item0 == 'Required':
-        item2 = int(item[2]) - 1
-        if item1 not in lst:
-            lst[item2] = item1
+        item2 = int(item[2])
+        if len(lst) > item2 >= 0:
+            if item1 not in lst:
+                lst[item2] = item1
     elif item0 == 'JustInCase':
         lst.pop()
         lst.append(item1)
-for b in lst:
-    print(b, end=' ')
-
-
-
-
-
-
+    ite = input()
+# for b in lst:
+#     if not b == 'None':
+#         print(b, end=' ')
+print(*[_ for _ in lst if not _ == 'None'], end=' ')
