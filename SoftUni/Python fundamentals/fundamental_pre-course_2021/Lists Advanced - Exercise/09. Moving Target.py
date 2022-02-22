@@ -1,46 +1,31 @@
-def shoot(l, i, v):
-    if len(l) >= i:
-        l[i] -= v
-        if l[i] <= 0:
-            l.pop(i)
-    return l
-
-
-def add(l, i, v):
-    if len(l) <= i + 1:
-        print("Invalid placement!")
-    else:
-        l.insert(i, v)
-        return l
-
-
-def strike(l, i, v):
-    if (i+v) <= len(l) and (i-v) >= 0:
-        for a in range(i + 1, i + v + 1):
-            l[a] = 'Null'
-        for b in range(i - 1, i - 1 - v, -1):
-            l[b] = 'Null'
-        l[i] = 'Null'
-        new_list = [_ for _ in l if _ != 'Null']
-        return new_list
-    print("Strike missed!")
-    return l
-
-
-lst = [int(_) for _ in input().split(' ')]
-damage_target = input()
+targets = [int(_) for _ in input().split(' ')]
+line = input()
 answer = []
-while not damage_target == 'End':
-    action, index, value = damage_target.split(' ')
-    index = int(index)
-    value = int(value)
-    if action == 'Shoot':
-        shoot(lst, index, value)
-    elif action == 'Add':
-        add(lst, index, value)
-    elif action == 'Strike':
-        answer = strike(lst, index, value)
+while not line == 'End':
+    command_list = line.split(' ')
+    command = command_list[0]
+    index = int(command_list[1])
+    value = int(command_list[2])
 
-    damage_target = input()
-answer = [str(_) for _ in answer]
-print('|'.join(answer))
+    if command == "Shoot" and index >= 0 and index < len(targets):
+        current_target = targets[index]
+        current_target -= value
+        if current_target <= 0:
+            targets.pop(index)
+        else:
+            targets[index] = current_target
+    elif command == "Add":
+        if index >= 0 and index < len(targets):
+            targets.insert(index, value)
+        else:
+            print("Invalid placement!")
+    elif command == "Strike":
+        if index - value >= 0 and index + value < len(targets):
+            targets = targets[:index - value] + targets[index + value + 1:]
+        else:
+            print("Strike missed!")
+    line = input()
+
+targets = list(map(str, targets))
+output = "|".join(targets)
+print(output)

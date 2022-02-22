@@ -1,11 +1,6 @@
-b = []
-c = []
-a = [b.append(_) for _ in input()]
-for i in b:
-    if i.isupper():
-        if not c:
-            c.append(b.index(i))
-        else:
-            z = c[-1]
-            c.append(b.index(i, z))
-print(c)
+str = input()
+capitals = []
+for idx, chr in enumerate(str):
+    if 65 <= ord(chr) <= 90:
+        capitals.append(idx)
+print(capitals)
