@@ -29,8 +29,6 @@ while item == '':
                 dkt[material] = 0
             dkt[material] += int(quant)
 print(item + " obtained!")
-winners = dict(sorted(winners.items(), key=lambda x: (-x[1], x[0])))
-dkt = dict(sorted(dkt.items(), key=lambda x1: (x1[0], -x1[1])))
 for key, value in winners.items():
     print(f"{key}: {value}")
 for key, value in dkt.items():
