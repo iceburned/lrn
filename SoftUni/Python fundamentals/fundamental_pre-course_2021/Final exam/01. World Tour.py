@@ -1,6 +1,6 @@
 def add_stop(stop, index, place):
     index_num = int(index)
-    if 0 <= index_num <= len(stop):
+    if 0 <= index_num < len(stop):
         stop = stop[:index_num] + place + stop[index_num:]
     print(stop)
     return stop
@@ -9,7 +9,7 @@ def add_stop(stop, index, place):
 def remove_stop(stop, strt_indx, stop_indx):
     strt_indx = int(strt_indx)
     stop_indx = int(stop_indx)
-    if 0 <= strt_indx <= len(stop) >= stop_indx:
+    if 0 <= strt_indx < len(stop) > stop_indx:
         stop = stop[:strt_indx] + stop[stop_indx + 1:]
     print(stop)
     return stop
