@@ -8,7 +8,7 @@ while not data == "find":
     for i in data:
         new_string += "".join(chr(ord(i) - decrypt[index]))
         index += 1
-        if index >= 4:
+        if index >= len(decrypt):
             index = 0
     material = re.findall(r'&(\w+)&', new_string)
     position = re.findall(r'<(\w+)>', new_string)
