@@ -1,67 +1,48 @@
-def add(my_dict, piece, composer, key):
-    if composer not in my_dict:
-        my_dict[composer] = {}
-        my_dict[composer][piece] = key
-        if flag:
-            print(f"{piece} by {composer} in {key} added to the collection!")
+def add(my_dict, piece_add, composer_add, key_add):
+    if piece_add in my_dict:
+        print(f"{piece_add} is already in the collection!")
     else:
-        if piece in my_dict[composer]:
-                print(f"{piece} is already in the collection!")
-        else:
-            if flag:
-                print(f"{piece} by {composer} in {key} added to the collection!")
-            my_dict[composer][piece] = key
+        my_dict.update({piece_add: {"composer": composer_add, "key": key_add}})
+        print(f"{piece_add} by {composer_add} in {key_add} added to the collection!")
     return my_dict
 
 
-flag = False
+def remove(my_dict, piece_remove):
+    if piece_remove in my_dict:
+        my_dict.pop(piece_remove)
+        print(f"Successfully removed {piece_remove}!")
+    else:
+        print(f"Invalid operation! {piece_remove} does not exist in the collection.")
+    return my_dict
+
+
+def changekey(my_dict, piece_new, key_new):
+    if piece_new in my_dict:
+        my_dict[piece_new]["key"] = key_new
+        print(f"Changed the key of {piece_new} to {key_new}!")
+    else:
+        print(f"Invalid operation! {piece_new} does not exist in the collection.")
+    return my_dict
+
+
 dkt = {}
-for i in range(int(input())):
-    p, c, k = input().split("|")
-    add(dkt, p, c, k)
-
-
-def remove(my_dict, piece):
-    for i in my_dict.values():
-        if piece in i:
-            i.pop(piece)
-            for s in my_dict:
-                if my_dict[s] == {}:
-                    my_dict.pop(s)
-                    print(f"Successfully removed {piece}!")
-                    return my_dict
-            else:
-                print(f"Successfully removed {piece}!")
-                return my_dict
-    else:
-        print(f"Invalid operation! {piece} does not exist in the collection.")
-    return my_dict
-
-
-def change(my_dict, piece, new_key):
-    for ss in my_dict:
-        if piece in my_dict[ss]:
-            my_dict[ss][piece] = new_key
-            print(f"Changed the key of {piece} to {new_key}!")
-            return my_dict
-        else:
-            print(f"Invalid operation! {piece} does not exist in the collection.")
-            return my_dict
-
-
-data = input()
-flag = True
-while not data == "Stop":
-    data = data.split("|")
-    if "Add" in data:
-        dkt = add(dkt, data[1], data[2], data[3])
-    elif "Remove" in data:
-        dkt = remove(dkt, data[1])
-    elif "ChangeKey" in data:
-        dkt = change(dkt, data[1], data[2])
-    data =input()
-for key, value in dkt.items():
-    for k in value:
-        print(f"{k} -> Composer: {key}, Key: {value[k]}")
-
-# trqbva da podredq rechika po piece ne kompozitor
+for _ in range(int(input())):
+    piece, composer, key = input().split("|")
+    if piece not in dkt:
+        dkt.update({piece: {"composer": '', "key": ''}})
+    dkt[piece]["composer"] = composer
+    dkt[piece]["key"] = key
+command = input()
+while not command == "Stop":
+    if command.startswith("Add"):
+        comm, p, c, k = command.split("|")
+        dkt = add(dkt, p, c, k)
+    elif command.startswith("Remove"):
+        comm, p = command.split("|")
+        dkt = remove(dkt, p)
+    elif command.startswith("ChangeKey"):
+        comm, p, k = command.split("|")
+        dkt = changekey(dkt, p, k)
+    command = input()
+for i in dkt:
+    print(f"{i} -> Composer: {dkt[i]['composer']}, Key: {dkt[i]['key']}")
