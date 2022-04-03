@@ -1,12 +1,15 @@
-data = [_ for _ in input()]
-new_string = ''
-temp_str = ''
-for i in data:
-    if i.isdigit():
-        new_string += (temp_str * int(i)).upper()
-        temp_str = ''
-    else:
-        temp_str += ''.join(i)
+import re
 
-set_answer = len(set(new_string))
-print(f"Unique symbols used: {set_answer}\n{new_string}")
+text = input()
+numbers = re.findall(r'\d+', text)
+new_text = ""
+
+for num in numbers:
+    position = text.find(num)
+    new_text += text[:position].upper() * int(num)
+    text = text.replace(text[:position + len(num)], "")
+
+unique = "".join(set(new_text))
+
+print(f"Unique symbols used: {len(unique)}")
+print(new_text)
