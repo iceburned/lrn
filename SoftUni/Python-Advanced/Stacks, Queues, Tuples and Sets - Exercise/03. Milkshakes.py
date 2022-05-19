@@ -41,7 +41,7 @@ choco = deque(int(_) for _ in input().split(", "))
 milk = deque(int(_) for _ in input().split(", "))
 count = 0
 flag = False
-while choco and milk and not flag:  # main cicle
+while choco and milk and not flag:
     if choco[-1] != milk[0]:
         choco, milk = negative_check(choco, milk)
     elif choco[-1] != milk[0]:
