@@ -1,8 +1,8 @@
-first = set(input().split(" "))
-second = set(input().split(" "))
+first = set(map(int, input().split(" ")))
+second = set(map(int, input().split(" ")))
 for _ in range(int(input())):
     data = input().split(" ")
-    digits = [_ for _ in data if _.isdigit()]
+    digits = [int(_) for _ in data if _.isdigit()]
     command = data[0]
     action = data[1]
     if command.startswith("Add"):
@@ -20,5 +20,6 @@ for _ in range(int(input())):
             print("True")
         else:
             print("False")
-print(', '.join(sorted(first)))
-print(', '.join(sorted(second)))
+
+print(*sorted(first), sep=", ")
+print(*sorted(second), sep=", ")
