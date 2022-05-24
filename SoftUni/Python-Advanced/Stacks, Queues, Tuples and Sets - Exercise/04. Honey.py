@@ -5,12 +5,12 @@ def calculate_nectar(bee, nectr, honey):  # if logic is satisfied then nectar is
     b = bee[0]
     n = nectr[-1]
     h = honey[0]
-    honey_made = 0
-    if b == 0 or nectr == 0 and h == '/':
-        pass
+    if h == "/" and b ==0 or n == 0:
+        honey_made = 0
+        return honey_made
     else:
         honey_made = eval(f"{b}{h}{n}")
-    return abs(honey_made)
+        return abs(honey_made)
 
 
 def remove_elements(bee, nectr, honey):  # after calculate_nectar pass then remove corresponding elements
