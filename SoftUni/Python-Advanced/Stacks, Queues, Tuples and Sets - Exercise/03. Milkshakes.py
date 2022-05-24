@@ -1,10 +1,10 @@
 from collections import deque
 
 
-def negative_check(c, m):  # m - milk, c - chocolate
-    if c[-1] < 0:          # check for negative number in both queues
+def negative_zero_check(c, m):  # m - milk, c - chocolate
+    if c[-1] <= 0:          # check for negative number in both queues
         c.pop()
-    if m[0] < 0:
+    if m[0] <= 0:
         m.popleft()
     return c, m
 
@@ -42,8 +42,8 @@ milk = deque(int(_) for _ in input().split(", "))
 count = 0
 flag = False
 while choco and milk and not flag:
-    if choco[-1] != milk[0]:
-        choco, milk = negative_check(choco, milk)
+    if choco[-1] <= 0 or milk[0] <= 0:
+        choco, milk = negative_zero_check(choco, milk)
     elif choco[-1] != milk[0]:
         choco, milk = elements_rotate(choco, milk)
     else:
