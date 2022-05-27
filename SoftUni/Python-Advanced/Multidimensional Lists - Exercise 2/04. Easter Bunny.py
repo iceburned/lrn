@@ -63,25 +63,25 @@ road = []
 direction = ""
 
 eggs_up, road_up = up(mtx, rabbit_position)
-if eggs_up >= biggest_eggs:
+if eggs_up > biggest_eggs:
     biggest_eggs = eggs_up
     road = road_up
     direction = "up"
 
 eggs_right, road_right = right(mtx, rabbit_position)
-if eggs_right >= biggest_eggs:
+if eggs_right > biggest_eggs:
     biggest_eggs = eggs_right
     road = road_right
     direction = "right"
 
 eggs_down, road_down = down(mtx, rabbit_position)
-if eggs_down >= biggest_eggs:
+if eggs_down > biggest_eggs:
     biggest_eggs = eggs_down
     road = road_down
     direction = "down"
 
 eggs_left, road_left = left(mtx, rabbit_position)
-if eggs_left >= biggest_eggs:
+if eggs_left > biggest_eggs:
     biggest_eggs = eggs_left
     road = road_left
     direction = "left"
