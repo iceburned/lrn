@@ -11,72 +11,90 @@ flag = True
 while command:
 
     if command == "down":
-        if alice_poss[0]+1 <= len(mtx)-1:
+        if alice_poss[0] >= len(mtx):
+            break
+
+        if 0 <= alice_poss[0]+1 <= len(mtx)-1:
             mtx[alice_poss[0]][alice_poss[1]] = "*"
             alice_poss[0] += 1
             if mtx[alice_poss[0]][alice_poss[1]].isdigit():
                 alice_tea += int(mtx[alice_poss[0]][alice_poss[1]])
+                if alice_tea >= 10:
+                    break
             elif mtx[alice_poss[0]][alice_poss[1]] == "R":
                 mtx[alice_poss[0]][alice_poss[1]] = "*"
                 flag = False
                 break
             mtx[alice_poss[0]][alice_poss[1]] = "*"
         else:
-            flag = False
+
             break
 
     elif command == "right":
-        if alice_poss[1]+1 <= len(mtx[alice_poss[0]])-1:
+        if alice_poss[1] >= len(mtx[1]):
+            break
+        if 0 <= alice_poss[1]+1 <= len(mtx[alice_poss[0]])-1:
             mtx[alice_poss[0]][alice_poss[1]] = "*"
             alice_poss[1] += 1
             if mtx[alice_poss[0]][alice_poss[1]].isdigit():
                 alice_tea += int(mtx[alice_poss[0]][alice_poss[1]])
+
             elif mtx[alice_poss[0]][alice_poss[1]] == "R":
                 mtx[alice_poss[0]][alice_poss[1]] = "*"
                 flag = False
                 break
             mtx[alice_poss[0]][alice_poss[1]] = "*"
+            if alice_tea >= 10:
+                break
         else:
-            flag = False
+
             break
 
     elif command == "up":
-        if alice_poss[0]-1 <= len(mtx)-1:
+        if alice_poss[0] == 0:
+            break
+        if 0 <= alice_poss[0]-1 <= len(mtx)-1:
             mtx[alice_poss[0]][alice_poss[1]] = "*"
             alice_poss[0] -= 1
             if mtx[alice_poss[0]][alice_poss[1]].isdigit():
                 alice_tea += int(mtx[alice_poss[0]][alice_poss[1]])
+
             elif mtx[alice_poss[0]][alice_poss[1]] == "R":
                 mtx[alice_poss[0]][alice_poss[1]] = "*"
                 flag = False
                 break
             mtx[alice_poss[0]][alice_poss[1]] = "*"
+            if alice_tea >= 10:
+                break
         else:
-            flag = False
+
             break
 
     elif command == "left":
-        if alice_poss[1] - 1 <= len(mtx[alice_poss[0]]) - 1:
+        if alice_poss[1] == 0:
+            break
+        if 0 <= alice_poss[1] - 1 <= len(mtx[alice_poss[0]]) - 1:
             mtx[alice_poss[0]][alice_poss[1]] = "*"
             alice_poss[1] -= 1
             if mtx[alice_poss[0]][alice_poss[1]].isdigit():
                 alice_tea += int(mtx[alice_poss[0]][alice_poss[1]])
+
             elif mtx[alice_poss[0]][alice_poss[1]] == "R":
                 mtx[alice_poss[0]][alice_poss[1]] = "*"
                 flag = False
                 break
             mtx[alice_poss[0]][alice_poss[1]] = "*"
+            if alice_tea >= 10:
+                break
         else:
-            flag = False
+
             break
     command = input()
-if flag:
-    if alice_tea >= 10:
-        print("She did it! She went to the party.")
-    else:
-        print("Alice didn't make it to the tea party.")
 
+if alice_tea >= 10:
+    print("She did it! She went to the party.")
 else:
     print("Alice didn't make it to the tea party.")
+
 for z in mtx:
     print(*z)
