@@ -21,7 +21,7 @@ while not data == "End":  # in input examples there is no End, but from descript
 
     # comment this, before uncomment code bellow and vise versa
     flag = any([True for _ in domains if domain_part.endswith(_)])  # check for present domain with dot
-    # flag = False
+    # flag = False                                                  # in the end of domain part
     # for _ in domains:
     #     if domain_part.endswith(_):           # same without list comprehension
     #         flag = True
