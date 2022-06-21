@@ -1,10 +1,11 @@
 mtx = [[s for s in input().split()] for _ in range(6)]
+lst = []
 
 
 def trow(cords, board):
     num = tuple(map(int, cords.strip('()').split(', ')))
     flag = False
-    if (0 <= num[0] < 6 or 0 <= num[1] < 6) and board[num[0]][num[1]] == 'B':
+    if (0 <= num[0] < 6 and 0 <= num[1] < 6) and board[num[0]][num[1]] == 'B':
         sum_sum = 0
         flag = True
         for i in range(6):
