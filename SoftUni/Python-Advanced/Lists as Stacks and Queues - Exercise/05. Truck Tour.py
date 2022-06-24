@@ -1,37 +1,19 @@
 from collections import deque
 
-
-# p = deque()
-# d = deque()
-# s = 0
-# sum_petrol = 0
-# sum_distance = 0
-# for _ in range(int(input())):
-#     petrol, distance = input().split(" ")
-#     p.append(int(petrol))
-#     d.append(int(distance))
-# for s in range(len(p)):
-#     if p[0] >= d[0]:
-#         break
-#     else:
-#         p.rotate(-1)
-#         d.rotate(-1)
-# for ss in range(len(p)):
-#     if sum_distance <= sum_petrol:
-#         sum_distance = d[ss]
-#         sum_petrol += p[ss]
-#         sum_petrol = sum_petrol - d[ss]
-# print(s)
-
+pumps_count = int(input())
 pumps = deque()
-for i in range(int(input())):
-    petrol, distance = input().split(" ")
-    pumps.append([petrol, distance])
-for petrl, dist in pumps:
-    sum_petrol = 0
-    flag = False
-    if sum_petrol >= petrl + dist:
-        sum_petrol += 1
+for _ in range(pumps_count):
+    pumps.append([int(x) for x in input().split()])
+for attempt in range(pumps_count):
+    trunk = 0
+    failed = False
+    for petrol, distance in pumps:
+        trunk = trunk + petrol - distance
+        if trunk < 0:
+            failed = True
+            break
+    if failed:
+        pumps.append(pumps.popleft())
     else:
-        flag = True
+        print(attempt)
         break

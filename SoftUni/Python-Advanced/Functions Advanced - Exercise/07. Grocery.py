@@ -1,5 +1,5 @@
 def grocery_store(**kwargs):
-    sorted_dict = [f'{k}: {v}' for k, v in sorted(kwargs.items(), key=lambda x: (x[1], x[0]), reverse=True)]
+    sorted_dict = [f'{k}: {v}' for k, v in sorted(kwargs.items(), key=lambda x: (-x[1], -len(x[0]), x[0]))]
     return '\n'.join(sorted_dict)
 
 

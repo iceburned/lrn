@@ -1,143 +1,48 @@
-def position(mtx_pos):
-    for i in range(len(mtx_pos)):
-        if "B" in mtx_pos[i]:
-            index = mtx_pos[i].index("B")
-            pos = i, index
-            return pos
+import sys
 
+size = int(input())
+matrix = []
+bunny_row = 0
+bunny_col = 0
 
-def up(mtx_up, rabbit_pos):
-    eggs = 0
-    road_rabbit = []
-    for i in range(rabbit_pos[0]-1, -1, -1):
-        if not mtx_up[i][rabbit_pos[1]] == "X":
-            eggs += mtx_up[i][rabbit_pos[1]]
-            road_rabbit.append([i, rabbit_pos[1]])
-        else:
-            return eggs, road_rabbit
-    return eggs, road_rabbit
+for row in range(size):
+    row_elements = input().split()
+    matrix.append(row_elements)
 
+    for col in range(size):
+        if row_elements[col] == "B":
+            bunny_row, bunny_col = row, col
 
-def right(mtx_right, rabbit_pos):
-    eggs = 0
-    road_rabbit = []
-    for i in range(rabbit_pos[1]+1, len(mtx_right[rabbit_pos[0]])):
-        if not mtx_right[rabbit_pos[0]][i] == "X" :
-            eggs += mtx_right[rabbit_pos[0]][i]
-            road_rabbit.append([rabbit_pos[0], i])
-        else:
-            return eggs, road_rabbit
-    return eggs, road_rabbit
+directions = {'right': lambda r, c: (r, c + 1),
+              'left': lambda r, c: (r, c - 1),
+              'up': lambda r, c: (r - 1, c),
+              'down': lambda r, c: (r + 1, c)
+              }
 
+best_direction = ''
+best_score = -sys.maxsize
+best_path = []
+for direction, step in directions.items():
+    current_row, current_col = bunny_row, bunny_col
+    current_score = 0
+    path = []
 
-def down(mtx_down, rabbit_pos):
-    eggs = 0
-    road_rabbit = []
-    for i in range(rabbit_pos[0]+1, len(mtx_down)):
-        if not mtx_down[i][rabbit_position[1]] == "X":
-            eggs += mtx_down[i][rabbit_position[1]]
-            road_rabbit.append([i, rabbit_pos[1]])
-        else:
-            return eggs, road_rabbit
-    return eggs, road_rabbit
+    while True:
+        current_row, current_col = step(current_row, current_col)
 
+        if current_row < 0 or current_col < 0 or current_row >= size or current_col >= size:
+            break
+        if matrix[current_row][current_col] == 'X':
+            break
+        path.append([current_row, current_col])
+        current_score += (int(matrix[current_row][current_col]))
 
-def left(mtx_left, rabbit_pos):
-    eggs = -0
-    road_rabbit = []
-    for i in range(rabbit_pos[1]-1, -1, -1):
-        if not mtx_left[rabbit_pos[0]][i] == "X":
-            eggs += mtx_left[rabbit_pos[0]][i]
-            road_rabbit.append([rabbit_pos[0], i])
-        else:
-            return eggs, road_rabbit
-    return eggs, road_rabbit
+    if current_score >= best_score and path:     # така проверяваме дали сме минали през
+        best_score = current_score
+        best_direction = direction
+        best_path = path
 
-
-mtx = [[s for s in input().split()] for _ in range(int(input()))]
-mtx = [[s if s.isalpha() else int(s) for s in _] for _ in mtx]
-rabbit_position = position(mtx)
-
-biggest_eggs = -1000
-road = []
-direction = ""
-
-eggs_up, road_up = up(mtx, rabbit_position)
-if eggs_up > biggest_eggs:
-    biggest_eggs = eggs_up
-    road = road_up
-    direction = "up"
-
-eggs_right, road_right = right(mtx, rabbit_position)
-if eggs_right > biggest_eggs:
-    biggest_eggs = eggs_right
-    road = road_right
-    direction = "right"
-
-eggs_down, road_down = down(mtx, rabbit_position)
-if eggs_down > biggest_eggs:
-    biggest_eggs = eggs_down
-    road = road_down
-    direction = "down"
-
-eggs_left, road_left = left(mtx, rabbit_position)
-if eggs_left > biggest_eggs:
-    biggest_eggs = eggs_left
-    road = road_left
-    direction = "left"
-
-print(direction)
-for s in road:
-    print(s)
-print(biggest_eggs)
-
-# def is_inside(r, c, size):
-#     return 0 <= r < size and 0 <= c < size
-#
-#
-# def position(mtx_pos):
-#     for i in range(len(mtx_pos)):
-#         if "B" in mtx_pos[i]:
-#             index = mtx_pos[i].index("B")
-#             pos = i, index
-#             return pos
-#
-#
-# size = int(input())
-# mtx = [[s for s in input().split()] for _ in range(size)]
-# mtx = [[s if s.isalpha() else int(s) for s in _] for _ in mtx]
-# rabbit_position = position(mtx)
-# directions = {
-#     "right": lambda r, c: (r, c + 1),
-#     "left": lambda r, c: (r, c - 1),
-#     "up": lambda r, c: (r - 1, c),
-#     "down": lambda r, c: (r + 1, c)
-# }
-#
-# max_eggs = 0
-# best_direction = ''
-# best_path = []
-#
-# for directions, step in directions.items():
-#     eggs = 0
-#     current_row, current_col = rabbit_position[0], rabbit_position[1]
-#     path = []
-#     while True:
-#         next_row, next_col = step(current_row, current_col)
-#         if not is_inside(current_row, current_col, size):
-#             break
-#         if mtx[next_row][next_col] == "X":
-#             break
-#
-#         eggs += int(mtx[next_row][next_col])
-#         path.append([current_row, current_col])
-#     if eggs > max_eggs:
-#         max_eggs = eggs
-#         best_direction = directions
-#         best_path = path
-#
-#
-# print(best_path)
-# for step in best_path:
-#     print(step)
-# print(max_eggs)
+print(best_direction)
+for path in best_path:
+    print(path)
+print(best_score)
