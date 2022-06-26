@@ -1,0 +1,4 @@
+select
+       employee_id, first_name, last_name, department_id, salary
+from employees
+where manager_id is null;
