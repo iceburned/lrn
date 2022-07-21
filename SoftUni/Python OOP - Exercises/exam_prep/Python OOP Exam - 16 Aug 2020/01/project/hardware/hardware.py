@@ -13,7 +13,7 @@ class Hardware:
         if self.capacity >= software.capacity_consumption and self.memory >= software.memory_consumption:
             self.software_components.append(software)
         else:
-            raise Exception("Software cannot be installed")
+            return Exception("Software cannot be installed")
 
     def uninstall(self, software: Software):
         if software in self.software_components:
