@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 
 
 class BaseFish(ABC):
+    EAT_INCREMENTAL = 5
+
     @abstractmethod
     def __init__(self, name, species, size, price):
         self.name = name
@@ -40,5 +42,5 @@ class BaseFish(ABC):
         self._price = value
 
     def eat(self):
-        self.size += 5
+        self.size += self.EAT_INCREMENTAL
 
