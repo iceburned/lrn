@@ -1,5 +1,8 @@
 from abc import ABC, abstractmethod
 
+from project.decoration.base_decoration import BaseDecoration
+from project.fish.base_fish import BaseFish
+
 
 class BaseAquarium(ABC):
     @abstractmethod
@@ -22,11 +25,8 @@ class BaseAquarium(ABC):
     def calculate_comfort(self):
         return sum(_.comfort for _ in self.decorations)
 
-    def calculate_fishes_size(self):
-        return sum(_.size for _ in self.fish)
-
-    def add_fish(self, fish):
-        if self.capacity < self.calculate_fishes_size() + fish.size:
+    def add_fish(self, fish: BaseFish):
+        if self.capacity <= len(self.fish):
             return "Not enough capacity."
         if fish.inhabited != self.__class__.__name__:
             return "Water not suitable."
@@ -35,10 +35,10 @@ class BaseAquarium(ABC):
             return f"Successfully added {fish.__class__.__name__} to {self.name}."
 
     def remove_fish(self, fish):
-        if fish in self.fish:
-            self.fish.remove(fish)
+        # if fish in self.fish:
+        self.fish.remove(fish)
 
-    def add_decoration(self, decoration):
+    def add_decoration(self, decoration: BaseDecoration):
         self.decorations.append(decoration)
 
     def feed(self):
@@ -50,3 +50,4 @@ class BaseAquarium(ABC):
                f"Fish: {' '.join(names) if any(names) else 'none'}\n" \
                f"Decorations: {len(self.decorations)}\n" \
                f"Comfort: {self.calculate_comfort()}"
+

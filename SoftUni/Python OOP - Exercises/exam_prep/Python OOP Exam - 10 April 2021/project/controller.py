@@ -12,7 +12,7 @@ class Controller:
         self.decorations_repository = DecorationRepository()
         self.aquariums = []
         self.allowed_aquariums = ["FreshwaterAquarium", "SaltwaterAquarium"]
-        self. allowed_decorations = ["Ornament", "Plant"]
+        self.allowed_decorations = ["Ornament", "Plant"]
         self.allowed_fishes = ["FreshwaterFish", "SaltwaterFish"]
 
     def add_aquarium(self, aquarium_type, aquarium_name):
@@ -38,19 +38,18 @@ class Controller:
             if o.name == aquarium_name:
                 answer = self.decorations_repository.find_by_type(decoration_type)
                 if answer != "None":
-                    o.add_decoration(answer)
-                    return f"Successfully added {decoration_type} to {aquarium_name}."
+                    if self.decorations_repository.remove(answer):
+                        o.add_decoration(answer)
+                        return f"Successfully added {decoration_type} to {aquarium_name}."
                 return f"There isn't a decoration of type {decoration_type}."
 
     def add_fish(self, aquarium_name, fish_type, fish_name, fish_species, price):
-        fish = ''
         if fish_type not in self.allowed_fishes:
             return f"There isn't a fish of type {fish_type}."
         if fish_type == "FreshwaterFish":
             fish = FreshwaterFish(fish_name, fish_species, price)
         else:
             fish = SaltwaterFish(fish_name, fish_species, price)
-        # TODO check if aquarium is present
         for o in self.aquariums:
             if o.name == aquarium_name:
                 return o.add_fish(fish)
@@ -66,8 +65,23 @@ class Controller:
             if o.name == aquarium_name:
                 fishes_price = sum(_.price for _ in o.fish)
                 decorations_price = sum(_.price for _ in o.decorations)
-                return f"The value of Aquarium {aquarium_name} is {fishes_price + decorations_price:.2f}."
+                return f"The value of Aquarium {aquarium_name} is {(fishes_price + decorations_price):.2f}."
 
     def report(self):
+        answer = ''
         for o in self.aquariums:
-            return str(o)
+            answer += str(o) + "\n"
+        return answer
+
+# c = Controller()
+# c.add_aquarium("FreshwaterAquarium", 'fresh')
+# c.add_aquarium("SaltwaterAquarium", 'salt')
+# c.add_decoration("Plant")
+# c.add_decoration("Plant")
+# c.add_decoration("Ornament")
+# print(c.insert_decoration("fresh", 'Plant'))
+# print(c.insert_decoration("fresh", 'Plant'))
+# print(c.add_fish('fresh', "FreshwaterFish", 'nemo', "asd", 2.6))
+# print(c.add_fish('fresh', "FreshwaterFish", 'Anton', "asd", 1.8))
+# print(c.report())
+# a = 1

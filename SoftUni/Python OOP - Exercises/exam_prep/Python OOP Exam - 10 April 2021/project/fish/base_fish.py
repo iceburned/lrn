@@ -10,6 +10,7 @@ class BaseFish(ABC):
         self.species = species
         self.size = size
         self.price = price
+        self.inhabited = ''
 
     @property
     def name(self):
