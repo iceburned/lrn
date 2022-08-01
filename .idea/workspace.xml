@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b43a5a9e-b9d2-4e5b-a451-62e092a9805f" name="Changes" comment="change">
+    <list default="true" id="b43a5a9e-b9d2-4e5b-a451-62e092a9805f" name="Changes" comment="add/change">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/lrn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lrn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut/astronaut.py" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut/astronaut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut/astronaut_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut/astronaut_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/planet/planet.py" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/planet/planet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/planet/planet_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/planet/planet_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/space_station.py" beforeDir="false" afterPath="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/space_station.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +44,31 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Default.LAPTOP-AJJSFUCE/PycharmProjects/lrn/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 10 April 2021&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python OOP - Exercises\exam_prep\Python OOP Exam - 10 April 2021" />
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python OOP - Exercises\Inheritance - Exercise\Need for Speed_4\project" />
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python OOP - Exercises\exam_prep\Python OOP Exam - 15 August 2021\project\core" />
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python OOP - Exercises\polymorphism_and_abstraction_exercise\wild_farm_04\project\animals" />
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python fundamentals" />
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python OOP - Exercises\Classes and Objects - Exercise\Guild System\project" />
+      <recent name="C:\Users\Default.LAPTOP-AJJSFUCE\PycharmProjects\lrn\SoftUni\Python OOP - Exercises\exam_prep\Python OOP Exam - 16 Aug 2020\01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in main.py (1)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.space_station">
+    <configuration name="astronaut_repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lrn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,12 +76,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut/astronaut_repository.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bakery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lrn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,12 +98,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project/bakery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="product_repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="biologist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lrn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project/product_repository.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut/biologist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,43 +134,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in main.py (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="planet_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lrn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project/main.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/core/planet_factory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="space_station" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lrn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project/main.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/space_station.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in main.py (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.product_repository" />
-        <item itemvalue="Python tests.Python tests in main.py" />
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.space_station" />
+        <item itemvalue="Python.planet_factory" />
+        <item itemvalue="Python.astronaut_repository" />
+        <item itemvalue="Python.biologist" />
+        <item itemvalue="Python.bakery" />
       </list>
     </recent_temporary>
   </component>
@@ -162,16 +200,482 @@
       <workItem from="1652086246667" duration="8395000" />
       <workItem from="1652169159866" duration="3554000" />
       <workItem from="1652172772379" duration="3633000" />
-      <workItem from="1652179792832" duration="1582000" />
+      <workItem from="1652179792832" duration="4214000" />
+      <workItem from="1652293848688" duration="4868000" />
+      <workItem from="1652354968119" duration="648000" />
+      <workItem from="1652356152352" duration="1775000" />
+      <workItem from="1652358008152" duration="595000" />
+      <workItem from="1652358677433" duration="2542000" />
+      <workItem from="1652386723824" duration="2911000" />
+      <workItem from="1652389731368" duration="489000" />
+      <workItem from="1652437064467" duration="25000" />
+      <workItem from="1652437217111" duration="10000" />
+      <workItem from="1652437361651" duration="918000" />
+      <workItem from="1652466653390" duration="2441000" />
+      <workItem from="1652537684506" duration="7410000" />
+      <workItem from="1652690419890" duration="39000" />
+      <workItem from="1652713286584" duration="34000" />
+      <workItem from="1652713365763" duration="30830000" />
+      <workItem from="1652850578899" duration="35049000" />
+      <workItem from="1653036334994" duration="18724000" />
+      <workItem from="1653071987739" duration="7935000" />
+      <workItem from="1653140238094" duration="8052000" />
+      <workItem from="1653156062197" duration="3773000" />
+      <workItem from="1653205323639" duration="3676000" />
+      <workItem from="1653244927970" duration="4728000" />
+      <workItem from="1653259386767" duration="626000" />
+      <workItem from="1653292775417" duration="4471000" />
+      <workItem from="1653335170712" duration="18305000" />
+      <workItem from="1653498487788" duration="3076000" />
+      <workItem from="1653515488196" duration="3905000" />
+      <workItem from="1653543921800" duration="959000" />
+      <workItem from="1653544899524" duration="3535000" />
+      <workItem from="1653585502717" duration="6000" />
+      <workItem from="1653638406318" duration="13000" />
+      <workItem from="1653638428457" duration="12383000" />
+      <workItem from="1653655789233" duration="599000" />
+      <workItem from="1653662406693" duration="602000" />
+      <workItem from="1653723387864" duration="2785000" />
+      <workItem from="1653856573143" duration="9488000" />
+      <workItem from="1653970223894" duration="18416000" />
+      <workItem from="1654024471123" duration="1522000" />
+      <workItem from="1654064180353" duration="10968000" />
+      <workItem from="1654103289380" duration="10381000" />
+      <workItem from="1654160989649" duration="8692000" />
+      <workItem from="1654179847829" duration="2343000" />
+      <workItem from="1654249258355" duration="7632000" />
+      <workItem from="1654276907641" duration="641000" />
+      <workItem from="1654517075650" duration="378000" />
+      <workItem from="1654517479955" duration="5268000" />
+      <workItem from="1654527800416" duration="2549000" />
+      <workItem from="1654533572056" duration="2718000" />
+      <workItem from="1654625663483" duration="5093000" />
+      <workItem from="1654632198545" duration="50000" />
+      <workItem from="1654670700946" duration="6066000" />
+      <workItem from="1654709772585" duration="3000" />
+      <workItem from="1654782896967" duration="4000" />
+      <workItem from="1654808006760" duration="387000" />
+      <workItem from="1654851975212" duration="11906000" />
+      <workItem from="1654898550087" duration="2911000" />
+      <workItem from="1654932339066" duration="8203000" />
+      <workItem from="1655023843728" duration="13000" />
+      <workItem from="1655107387774" duration="17000" />
+      <workItem from="1655132955739" duration="3510000" />
+      <workItem from="1655140591795" duration="5090000" />
+      <workItem from="1655153865518" duration="12000" />
+      <workItem from="1655218084563" duration="7660000" />
+      <workItem from="1655276146560" duration="2870000" />
+      <workItem from="1655281065150" duration="16621000" />
+      <workItem from="1655369072123" duration="6591000" />
+      <workItem from="1655400460444" duration="6000" />
+      <workItem from="1655475197729" duration="4000" />
+      <workItem from="1655486951897" duration="20000" />
+      <workItem from="1655551389719" duration="4897000" />
+      <workItem from="1655580773370" duration="4816000" />
+      <workItem from="1655629646745" duration="6797000" />
+      <workItem from="1655642725054" duration="8000" />
+      <workItem from="1655731719870" duration="8009000" />
+      <workItem from="1655754642380" duration="31966000" />
+      <workItem from="1655883468162" duration="56686000" />
+      <workItem from="1656154898118" duration="6278000" />
+      <workItem from="1656161238987" duration="5016000" />
+      <workItem from="1656166317107" duration="3228000" />
+      <workItem from="1656171314974" duration="717000" />
+      <workItem from="1656182625267" duration="9000" />
+      <workItem from="1656182741625" duration="1804000" />
+      <workItem from="1656196610496" duration="955000" />
+      <workItem from="1656231607793" duration="3156000" />
+      <workItem from="1656250952112" duration="14765000" />
+      <workItem from="1656316689154" duration="5830000" />
+      <workItem from="1656415843993" duration="10669000" />
+      <workItem from="1656497616430" duration="19874000" />
+      <workItem from="1656574613352" duration="5692000" />
+      <workItem from="1656613534702" duration="4768000" />
+      <workItem from="1656658879870" duration="994000" />
+      <workItem from="1656663857961" duration="27000" />
+      <workItem from="1656663896635" duration="12000" />
+      <workItem from="1656663927491" duration="10779000" />
+      <workItem from="1656708112145" duration="13726000" />
+      <workItem from="1656917124382" duration="8742000" />
+      <workItem from="1656956495132" duration="2742000" />
+      <workItem from="1657007127944" duration="1530000" />
+      <workItem from="1657008679957" duration="6994000" />
+      <workItem from="1657110423101" duration="12651000" />
+      <workItem from="1657188363737" duration="9775000" />
+      <workItem from="1657207771314" duration="5113000" />
+      <workItem from="1657266373917" duration="15777000" />
+      <workItem from="1657361140486" duration="6752000" />
+      <workItem from="1657433540057" duration="30016000" />
+      <workItem from="1657653880570" duration="75000" />
+      <workItem from="1657689186261" duration="2805000" />
+      <workItem from="1657694980285" duration="7963000" />
+      <workItem from="1657720699177" duration="19788000" />
+      <workItem from="1657895423047" duration="593000" />
+      <workItem from="1657900750832" duration="674000" />
+      <workItem from="1657912313859" duration="7000" />
+      <workItem from="1657913319527" duration="13000" />
+      <workItem from="1658128452950" duration="3168000" />
+      <workItem from="1658171410555" duration="1817000" />
+      <workItem from="1658303961673" duration="201000" />
+      <workItem from="1658304263941" duration="14130000" />
+      <workItem from="1658577226246" duration="121000" />
+      <workItem from="1658757852765" duration="5820000" />
+      <workItem from="1658829464780" duration="14660000" />
+      <workItem from="1658911644180" duration="85000" />
+      <workItem from="1658911785861" duration="8704000" />
+      <workItem from="1658920714679" duration="2031000" />
+      <workItem from="1658995494772" duration="12863000" />
+      <workItem from="1659091290460" duration="2159000" />
+      <workItem from="1659093542030" duration="16728000" />
+      <workItem from="1659188818460" duration="13934000" />
+      <workItem from="1659206993285" duration="3048000" />
+      <workItem from="1659210394248" duration="4599000" />
+      <workItem from="1659253389089" duration="16084000" />
     </task>
-    <task id="LOCAL-00001" summary="change">
-      <created>1652086068664</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00073" summary="add/change">
+      <created>1656278498709</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1652086068664</updated>
+      <updated>1656278498709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00074" summary="add/change">
+      <created>1656278522896</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1656278522896</updated>
+    </task>
+    <task id="LOCAL-00075" summary="add/change">
+      <created>1656278870342</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1656278870342</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add/change">
+      <created>1656279377062</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1656279377063</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add/change">
+      <created>1656435502956</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1656435502956</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add/change">
+      <created>1656500303212</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1656500303212</updated>
+    </task>
+    <task id="LOCAL-00079" summary="add/change">
+      <created>1656511760424</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1656511760424</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add/change">
+      <created>1656511852921</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1656511852921</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add/change">
+      <created>1656511891981</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1656511891981</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add/change">
+      <created>1656615876004</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1656615876004</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add/change">
+      <created>1656616562280</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1656616562280</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add/change">
+      <created>1656616621687</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1656616621687</updated>
+    </task>
+    <task id="LOCAL-00085" summary="add/change">
+      <created>1656681385655</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1656681385656</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add/change">
+      <created>1656705366906</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1656705366906</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add/change">
+      <created>1656748683378</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1656748683378</updated>
+    </task>
+    <task id="LOCAL-00088" summary="add/change">
+      <created>1656749390677</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1656749390677</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add/change">
+      <created>1656750253575</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1656750253575</updated>
+    </task>
+    <task id="LOCAL-00090" summary="add/change">
+      <created>1656752768280</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1656752768280</updated>
+    </task>
+    <task id="LOCAL-00091" summary="add/change">
+      <created>1657008716898</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1657008716899</updated>
+    </task>
+    <task id="LOCAL-00092" summary="add/change">
+      <created>1657114166314</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1657114166314</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add/change">
+      <created>1657117274899</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1657117274899</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add/change">
+      <created>1657191759435</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1657191759437</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add/change">
+      <created>1657265553715</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1657265553716</updated>
+    </task>
+    <task id="LOCAL-00096" summary="add/change">
+      <created>1657279534657</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1657279534657</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add/change">
+      <created>1657307291553</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1657307291553</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add/change">
+      <created>1657390358788</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1657390358788</updated>
+    </task>
+    <task id="LOCAL-00099" summary="add/change">
+      <created>1657434141511</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1657434141511</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add/change">
+      <created>1657524261456</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1657524261456</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add/change">
+      <created>1657529139711</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1657529139711</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add/change">
+      <created>1657544828952</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1657544828952</updated>
+    </task>
+    <task id="LOCAL-00103" summary="add/change">
+      <created>1657544844302</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1657544844302</updated>
+    </task>
+    <task id="LOCAL-00104" summary="add/change">
+      <created>1657566528108</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1657566528109</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add/change">
+      <created>1657690710615</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1657690710617</updated>
+    </task>
+    <task id="LOCAL-00106" summary="add/change">
+      <created>1657697089280</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1657697089281</updated>
+    </task>
+    <task id="LOCAL-00107" summary="add/change">
+      <created>1657697409621</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1657697409621</updated>
+    </task>
+    <task id="LOCAL-00108" summary="add/change">
+      <created>1657779330464</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1657779330465</updated>
+    </task>
+    <task id="LOCAL-00109" summary="add/change">
+      <created>1657779396159</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1657779396159</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add/change">
+      <created>1657906410070</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1657906410071</updated>
+    </task>
+    <task id="LOCAL-00111" summary="add/change">
+      <created>1658169521527</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1658169521528</updated>
+    </task>
+    <task id="LOCAL-00112" summary="add/change">
+      <created>1658172637030</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1658172637030</updated>
+    </task>
+    <task id="LOCAL-00113" summary="add/change">
+      <created>1658385515467</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1658385515468</updated>
+    </task>
+    <task id="LOCAL-00114" summary="add/change">
+      <created>1658922064395</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1658922064395</updated>
+    </task>
+    <task id="LOCAL-00115" summary="add/change">
+      <created>1658996605830</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1658996605831</updated>
+    </task>
+    <task id="LOCAL-00116" summary="add/change">
+      <created>1658999070528</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1658999070528</updated>
+    </task>
+    <task id="LOCAL-00117" summary="add/change">
+      <created>1659093657617</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1659093657618</updated>
+    </task>
+    <task id="LOCAL-00118" summary="add/change">
+      <created>1659214760330</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1659214760331</updated>
+    </task>
+    <task id="LOCAL-00119" summary="add/change">
+      <created>1659214820732</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1659214820732</updated>
+    </task>
+    <task id="LOCAL-00120" summary="add/change">
+      <created>1659214842692</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1659214842692</updated>
+    </task>
+    <task id="LOCAL-00121" summary="add/change">
+      <created>1659266503420</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1659266503421</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +694,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="add/change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add/change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -205,17 +710,567 @@
           <line>28</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise/05. Truck Tour.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise/05. Truck Tour.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise/10. Cups and Bottles.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise/09.Key Revolver.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise/08. Crossroads.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise/02. Expression Evaluator.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise/03. Milkshakes.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise/04. Honey.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise/06. Paint Colors.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise/01. Numbers.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise/05. Santa's Present Factory.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2/01. Flatten Lists.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2/02. Matrix Modification.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2/05. Alice in Wonderland.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 1/08. Bombs.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 1/10. Radioactive Mutate Vampire Bunnies.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab/01. Multiplication Function.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab/03. Cheese Showcase.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab/05. Operate.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab/06. Recursive Power.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise/03. Even or Odd.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise/04. Numbers Filter.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise/05. Concatenate.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise/08. Age Assignment.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise/09. Recursion Palindrome.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise/10. Fill the Box.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Ramen Shop.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Martian Explorer.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/03. Words Sorting.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Flowers Finder.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Pawn Wars.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/03. Springtime.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Christmas Elves.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Download/Homework-Exercise Error Handling-1435100/01. Numbers_dictionary.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Download/Homework-Exercise Error Handling-1430088/email_validator/email_validator.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Download/Homework-Exercise Error Handling-1427813/14_error_handling_exercise/2_email_validator.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/file_handling/even_lines/even_lines.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/file_handling/line_numbers/line_numbers.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/testing/Homework-Exercise File Handling-1435070/file_handling/file_handling_3rd/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/testing/file_manipulator.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Snake.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Minesweeper Generator.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Checkmate.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Game of Words.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Collecting Coins.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. Darts.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. North Pole Challenge.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/02. North Pole Challenge.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Taxi Express.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Scheduling.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Matching.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Fireworks Show.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Pizza Orders.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/01. Aladdin's Gifts.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/03. List Manipulator.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/03. Numbers Search.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep/03. Cupcake Shop.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam/01. Collecting Eggs.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam/02. Exit Founder.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python-Advanced/exam/03. Shopping Cart.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab/email_Validator_04.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/Wild Cat Zoo_01/project/main.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Classes and Objects - Exercise/Spoopify/project/main.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_lab/shop_02.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_lab/Integer_03.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Classes and Objects - Exercise/Guild System/project/main.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise/photo_album_01.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise/movie_world_02/project/test.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise/movie_world_02/project/test.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise/document_management_03/project/test.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise/gym_04/project/test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_lab/Playing.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise/vehicles.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise/Groups.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testing_learn.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise/test.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 16 Aug 2020/01/project/main.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/testng.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/everland.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 10 April 2021/project/controller.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project/asdf.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project/bakery.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/space_station.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lrn$motorcycle.coverage" NAME="motorcycle Coverage Results" MODIFIED="1652169903565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
-    <SUITE FILE_PATH="coverage/lrn$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1652169600505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
-    <SUITE FILE_PATH="coverage/lrn$.coverage" NAME=" Coverage Results" MODIFIED="1652180779796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project" />
-    <SUITE FILE_PATH="coverage/lrn$elf.coverage" NAME="elf Coverage Results" MODIFIED="1652100422229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Players and Monsters_3/project" />
-    <SUITE FILE_PATH="coverage/lrn$race_motorcycle.coverage" NAME="race_motorcycle Coverage Results" MODIFIED="1652170205064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4" />
-    <SUITE FILE_PATH="coverage/lrn$main.coverage" NAME="main Coverage Results" MODIFIED="1652180155289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project" />
+    <SUITE FILE_PATH="coverage/lrn$04__Rectangle.coverage" NAME="04. Rectangle Coverage Results" MODIFIED="1653989978011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$04__Numbers_Filter.coverage" NAME="04. Numbers Filter Coverage Results" MODIFIED="1653997825886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$03__List_Manipulator.coverage" NAME="03. List Manipulator Coverage Results" MODIFIED="1655990461550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$1_numbers_dictionary.coverage" NAME="1_numbers_dictionary Coverage Results" MODIFIED="1654933918733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Homework-Exercise Error Handling-1427813/14_error_handling_exercise" />
+    <SUITE FILE_PATH="coverage/lrn$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1657738151645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise/wild_farm_04/project" />
+    <SUITE FILE_PATH="coverage/lrn$main.coverage" NAME="main Coverage Results" MODIFIED="1659206376073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project" />
+    <SUITE FILE_PATH="coverage/lrn$03__Milkshakes.coverage" NAME="03. Milkshakes Coverage Results" MODIFIED="1653379821199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$Playing.coverage" NAME="Playing Coverage Results" MODIFIED="1657433860183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_lab" />
+    <SUITE FILE_PATH="coverage/lrn$08__Age_Assignment.coverage" NAME="08. Age Assignment Coverage Results" MODIFIED="1654066217774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$01__Multiplication_Function.coverage" NAME="01. Multiplication Function Coverage Results" MODIFIED="1653981803563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1655278592269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing/Homework-Exercise File Handling-1435070/file_handling/file_homework_2" />
+    <SUITE FILE_PATH="coverage/lrn$01__Scheduling.coverage" NAME="01. Scheduling Coverage Results" MODIFIED="1655898397613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$custom_range_01.coverage" NAME="custom_range_01 Coverage Results" MODIFIED="1658172594046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/iterators_and_generators_lab" />
+    <SUITE FILE_PATH="coverage/lrn$team.coverage" NAME="team Coverage Results" MODIFIED="1656703879920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/football_team_generator_03/project" />
+    <SUITE FILE_PATH="coverage/lrn$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1656616240611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/Pizza_Maker_02/project" />
+    <SUITE FILE_PATH="coverage/lrn$controller.coverage" NAME="controller Coverage Results" MODIFIED="1659093383715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 10 April 2021/project" />
+    <SUITE FILE_PATH="coverage/lrn$Groups.coverage" NAME="Groups Coverage Results" MODIFIED="1657566147823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise" />
     <SUITE FILE_PATH="coverage/lrn$product_repository.coverage" NAME="product_repository Coverage Results" MODIFIED="1652175163349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Shop_5/project" />
-    <SUITE FILE_PATH="coverage/lrn$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1652170912837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
+    <SUITE FILE_PATH="coverage/lrn$astronaut_repository.coverage" NAME="astronaut_repository Coverage Results" MODIFIED="1659256135209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut" />
+    <SUITE FILE_PATH="coverage/lrn$customer.coverage" NAME="customer Coverage Results" MODIFIED="1657291134867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise/gym_04/project" />
+    <SUITE FILE_PATH="coverage/lrn$03__Shopping_List.coverage" NAME="03. Shopping List Coverage Results" MODIFIED="1656056470620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$zoo.coverage" NAME="zoo Coverage Results" MODIFIED="1656509802197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/Wild Cat Zoo_01/project" />
+    <SUITE FILE_PATH="coverage/lrn$light_software.coverage" NAME="light_software Coverage Results" MODIFIED="1657781968439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 16 Aug 2020/01/project/software" />
+    <SUITE FILE_PATH="coverage/lrn$03__Words_Sorting.coverage" NAME="03. Words Sorting Coverage Results" MODIFIED="1654163124030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$01__Taxi_Express.coverage" NAME="01. Taxi Express Coverage Results" MODIFIED="1655885396720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$02__Pawn_Wars.coverage" NAME="02. Pawn Wars Coverage Results" MODIFIED="1654521502945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$03__Cheese_Showcase.coverage" NAME="03. Cheese Showcase Coverage Results" MODIFIED="1653984420615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$room.coverage" NAME="room Coverage Results" MODIFIED="1658762018124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/rooms" />
+    <SUITE FILE_PATH="coverage/lrn$02__Person_Info.coverage" NAME="02. Person Info Coverage Results" MODIFIED="1653982246391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$01__Bombs.coverage" NAME="01. Bombs Coverage Results" MODIFIED="1655294922397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$03__List_Pureness.coverage" NAME="03. List Pureness Coverage Results" MODIFIED="1655995367775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$elf.coverage" NAME="elf Coverage Results" MODIFIED="1652100422229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Players and Monsters_3/project" />
+    <SUITE FILE_PATH="coverage/lrn$Image_Area.coverage" NAME="Image Area Coverage Results" MODIFIED="1657433630628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_lab" />
+    <SUITE FILE_PATH="coverage/lrn$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1655278643279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing/Homework-Exercise File Handling-1435070/file_handling/filehandling4th/Folder1" />
+    <SUITE FILE_PATH="coverage/lrn$lrn1.coverage" NAME="lrn1 Coverage Results" MODIFIED="1653208427060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lrn$10__Radioactive_Mutate_Vampire_Bunnies.coverage" NAME="10. Radioactive Mutate Vampire Bunnies Coverage Results" MODIFIED="1653904896248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 1" />
+    <SUITE FILE_PATH="coverage/lrn$02__Exit_Founder.coverage" NAME="02. Exit Founder Coverage Results" MODIFIED="1656160814193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam" />
+    <SUITE FILE_PATH="coverage/lrn$08__Crossroads.coverage" NAME="08. Crossroads Coverage Results" MODIFIED="1652865486174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$03__Springtime.coverage" NAME="03. Springtime Coverage Results" MODIFIED="1654535844381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$09__Recursion_Palindrome.coverage" NAME="09. Recursion Palindrome Coverage Results" MODIFIED="1654072997474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$decoration_repository.coverage" NAME="decoration_repository Coverage Results" MODIFIED="1658859693929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 10 April 2021/project/decoration" />
+    <SUITE FILE_PATH="coverage/lrn$03__Even_or_Odd.coverage" NAME="03. Even or Odd Coverage Results" MODIFIED="1653996601391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$shop_02.coverage" NAME="shop_02 Coverage Results" MODIFIED="1656923981037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_lab" />
+    <SUITE FILE_PATH="coverage/lrn$06__Paint_Colors.coverage" NAME="06. Paint Colors Coverage Results" MODIFIED="1653296464661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$05__Account.coverage" NAME="05. Account Coverage Results" MODIFIED="1656279303548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$lrn2.coverage" NAME="lrn2 Coverage Results" MODIFIED="1656500038226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lrn$Integer_03.coverage" NAME="Integer_03 Coverage Results" MODIFIED="1656956932628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_lab" />
+    <SUITE FILE_PATH="coverage/lrn$01__Ramen_Shop.coverage" NAME="01. Ramen Shop Coverage Results" MODIFIED="1654097213656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$motorcycle.coverage" NAME="motorcycle Coverage Results" MODIFIED="1652169903565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
+    <SUITE FILE_PATH="coverage/lrn$laptop.coverage" NAME="laptop Coverage Results" MODIFIED="1658759036766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/appliances" />
+    <SUITE FILE_PATH="coverage/lrn$01__Flatten_Lists.coverage" NAME="01. Flatten Lists Coverage Results" MODIFIED="1653517049578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2" />
+    <SUITE FILE_PATH="coverage/lrn$04__Easter_Bunny.coverage" NAME="04. Easter Bunny Coverage Results" MODIFIED="1653519025639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2" />
+    <SUITE FILE_PATH="coverage/lrn$.coverage" NAME=" Coverage Results" MODIFIED="1657737903263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise/wild_farm_04/project" />
+    <SUITE FILE_PATH="coverage/lrn$race_motorcycle.coverage" NAME="race_motorcycle Coverage Results" MODIFIED="1652170205064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4" />
+    <SUITE FILE_PATH="coverage/lrn$09_Key_Revolver.coverage" NAME="09.Key Revolver Coverage Results" MODIFIED="1652852084731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$file_manipulator__1_.coverage" NAME="file_manipulator (1) Coverage Results" MODIFIED="1655279863002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing" />
+    <SUITE FILE_PATH="coverage/lrn$08__Bombs.coverage" NAME="08. Bombs Coverage Results" MODIFIED="1653652962381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 1" />
+    <SUITE FILE_PATH="coverage/lrn$03__Profile.coverage" NAME="03. Profile Coverage Results" MODIFIED="1656274304819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$02__North_Pole_Challenge.coverage" NAME="02. North Pole Challenge Coverage Results" MODIFIED="1655895907118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$01__Person.coverage" NAME="01. Person Coverage Results" MODIFIED="1656252339712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1657696956036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise/animals_05/project" />
+    <SUITE FILE_PATH="coverage/lrn$03__Cupcake_Shop.coverage" NAME="03. Cupcake Shop Coverage Results" MODIFIED="1656057590184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$02__Keyword_Arguments_Length.coverage" NAME="02. Keyword Arguments Length Coverage Results" MODIFIED="1653996050557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$Shapes.coverage" NAME="Shapes Coverage Results" MODIFIED="1657524026788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_lab" />
+    <SUITE FILE_PATH="coverage/lrn$01__Numbers.coverage" NAME="01. Numbers Coverage Results" MODIFIED="1653344265471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$06__Recursive_Power.coverage" NAME="06. Recursive Power Coverage Results" MODIFIED="1653991719722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$2_email_validator.coverage" NAME="2_email_validator Coverage Results" MODIFIED="1654934183000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Homework-Exercise Error Handling-1427813/14_error_handling_exercise" />
+    <SUITE FILE_PATH="coverage/lrn$05__Concatenate.coverage" NAME="05. Concatenate Coverage Results" MODIFIED="1654001789339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$02__Checkmate.coverage" NAME="02. Checkmate Coverage Results" MODIFIED="1655737118497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$profile_03__1_.coverage" NAME="profile_03 (1) Coverage Results" MODIFIED="1656274784334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$05__Santa_s_Present_Factory.coverage" NAME="05. Santa's Present Factory Coverage Results" MODIFIED="1653425456604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$05__Alice_in_Wonderland.coverage" NAME="05. Alice in Wonderland Coverage Results" MODIFIED="1653547171017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2" />
+    <SUITE FILE_PATH="coverage/lrn$fridge.coverage" NAME="fridge Coverage Results" MODIFIED="1658758898792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/appliances" />
+    <SUITE FILE_PATH="coverage/lrn$01__Christmas_Elves.coverage" NAME="01. Christmas Elves Coverage Results" MODIFIED="1655975258840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$line_numbers__1_.coverage" NAME="line_numbers (1) Coverage Results" MODIFIED="1655279976221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing" />
+    <SUITE FILE_PATH="coverage/lrn$young_couple_with_children.coverage" NAME="young_couple_with_children Coverage Results" MODIFIED="1658835252647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/rooms" />
+    <SUITE FILE_PATH="coverage/lrn$line_numbers.coverage" NAME="line_numbers Coverage Results" MODIFIED="1655279376846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing/line_numbers" />
+    <SUITE FILE_PATH="coverage/lrn$01__Collecting_Eggs.coverage" NAME="01. Collecting Eggs Coverage Results" MODIFIED="1656157207136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam" />
+    <SUITE FILE_PATH="coverage/lrn$numbers_dictionary.coverage" NAME="numbers_dictionary Coverage Results" MODIFIED="1654933721184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Homework-Exercise Error Handling-1430088/numbers_dictionary" />
+    <SUITE FILE_PATH="coverage/lrn$file_manipulator.coverage" NAME="file_manipulator Coverage Results" MODIFIED="1655279354158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing/file_manipulator" />
+    <SUITE FILE_PATH="coverage/lrn$planet_factory.coverage" NAME="planet_factory Coverage Results" MODIFIED="1659260551246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/core" />
+    <SUITE FILE_PATH="coverage/lrn$even_lines.coverage" NAME="even_lines Coverage Results" MODIFIED="1655279317859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing/even_lines" />
+    <SUITE FILE_PATH="coverage/lrn$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1656752691546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_lab/calculator_01" />
+    <SUITE FILE_PATH="coverage/lrn$02__Collecting_Coins.coverage" NAME="02. Collecting Coins Coverage Results" MODIFIED="1655757432867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$02__Ball_in_the_Bucket.coverage" NAME="02. Ball in the Bucket Coverage Results" MODIFIED="1655836763991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$asdf__1_.coverage" NAME="asdf (1) Coverage Results" MODIFIED="1659206476376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project" />
+    <SUITE FILE_PATH="coverage/lrn$space_station.coverage" NAME="space_station Coverage Results" MODIFIED="1659343898120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project" />
+    <SUITE FILE_PATH="coverage/lrn$vehicles.coverage" NAME="vehicles Coverage Results" MODIFIED="1657563043076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise" />
+    <SUITE FILE_PATH="coverage/lrn$02__Mammal.coverage" NAME="02. Mammal Coverage Results" MODIFIED="1656252921279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$photo_album_01.coverage" NAME="photo_album_01 Coverage Results" MODIFIED="1657191604642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/static_and_class_methods_exercise" />
+    <SUITE FILE_PATH="coverage/lrn$10__Fill_the_Box.coverage" NAME="10. Fill the Box Coverage Results" MODIFIED="1654075392663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$01__Fireworks_Show.coverage" NAME="01. Fireworks Show Coverage Results" MODIFIED="1655934004337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$email_Validator_04.coverage" NAME="email_Validator_04 Coverage Results" MODIFIED="1656278442374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$lion.coverage" NAME="lion Coverage Results" MODIFIED="1656317389070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/Wild Cat Zoo_01/project" />
+    <SUITE FILE_PATH="coverage/lrn$testing_learn.coverage" NAME="testing_learn Coverage Results" MODIFIED="1657611521872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lrn$lrn_1.coverage" NAME="lrn_1 Coverage Results" MODIFIED="1656164134517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni" />
+    <SUITE FILE_PATH="coverage/lrn$directory_traversal.coverage" NAME="directory_traversal Coverage Results" MODIFIED="1655279485624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing" />
+    <SUITE FILE_PATH="coverage/lrn$topping.coverage" NAME="topping Coverage Results" MODIFIED="1656517641265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/Pizza_Maker_02/project" />
+    <SUITE FILE_PATH="coverage/lrn$01__Matching.coverage" NAME="01. Matching Coverage Results" MODIFIED="1655914408050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$even_lines__1_.coverage" NAME="even_lines (1) Coverage Results" MODIFIED="1655279597594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing" />
+    <SUITE FILE_PATH="coverage/lrn$06__List_Manipulator.coverage" NAME="06. List Manipulator Coverage Results" MODIFIED="1655985736659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python fundamentals/fundamental_pre-course_2021/Lists Basics - More Exercises" />
+    <SUITE FILE_PATH="coverage/lrn$Numbers_Dictionary.coverage" NAME="Numbers Dictionary Coverage Results" MODIFIED="1654628315371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Error Handling" />
+    <SUITE FILE_PATH="coverage/lrn$01__Negative_vs_Positive.coverage" NAME="01. Negative vs Positive Coverage Results" MODIFIED="1653995908048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$03__Numbers_Search.coverage" NAME="03. Numbers Search Coverage Results" MODIFIED="1655992747509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$01__Numbers_dictionary.coverage" NAME="01. Numbers_dictionary Coverage Results" MODIFIED="1654932418497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Homework-Exercise Error Handling-1435100" />
+    <SUITE FILE_PATH="coverage/lrn$testng.coverage" NAME="testng Coverage Results" MODIFIED="1658859674652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project" />
+    <SUITE FILE_PATH="coverage/lrn$05__Truck_Tour.coverage" NAME="05. Truck Tour Coverage Results" MODIFIED="1652807734754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$05__Operate.coverage" NAME="05. Operate Coverage Results" MODIFIED="1653991189763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Lab" />
+    <SUITE FILE_PATH="coverage/lrn$04__Honey.coverage" NAME="04. Honey Coverage Results" MODIFIED="1652996996282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$01__Pizza_Orders.coverage" NAME="01. Pizza Orders Coverage Results" MODIFIED="1655934418700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$10__Cups_and_Bottles.coverage" NAME="10. Cups and Bottles Coverage Results" MODIFIED="1652823203961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Lists as Stacks and Queues - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$email_validator.coverage" NAME="email_validator Coverage Results" MODIFIED="1654933698877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Homework-Exercise Error Handling-1430088/email_validator" />
+    <SUITE FILE_PATH="coverage/lrn$table.coverage" NAME="table Coverage Results" MODIFIED="1659176894157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project/table" />
+    <SUITE FILE_PATH="coverage/lrn$02__Expression_Evaluator.coverage" NAME="02. Expression Evaluator Coverage Results" MODIFIED="1652878454333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Stacks, Queues, Tuples and Sets - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$02__Darts.coverage" NAME="02. Darts Coverage Results" MODIFIED="1655818934807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$01__Flowers_Finder.coverage" NAME="01. Flowers Finder Coverage Results" MODIFIED="1654254274440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$biologist.coverage" NAME="biologist Coverage Results" MODIFIED="1659254788065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 23 August 2021/project/astronaut" />
+    <SUITE FILE_PATH="coverage/lrn$07__Programmer.coverage" NAME="07. Programmer Coverage Results" MODIFIED="1656435224092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/First Steps in OOP - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$01__Aladdin_s_Gifts.coverage" NAME="01. Aladdin's Gifts Coverage Results" MODIFIED="1655973573327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$test.coverage" NAME="test Coverage Results" MODIFIED="1657690495304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/polymorphism_and_abstraction_exercise" />
+    <SUITE FILE_PATH="coverage/lrn$bakery.coverage" NAME="bakery Coverage Results" MODIFIED="1659214557370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Exam - 15 August 2021/project" />
+    <SUITE FILE_PATH="coverage/lrn$03__Shopping_Cart.coverage" NAME="03. Shopping Cart Coverage Results" MODIFIED="1656168929110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam" />
+    <SUITE FILE_PATH="coverage/lrn$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1652169600505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Inheritance - Exercise/Need for Speed_4/project" />
+    <SUITE FILE_PATH="coverage/lrn$07__Grocery.coverage" NAME="07. Grocery Coverage Results" MODIFIED="1654073550509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$02__Game_of_Words.coverage" NAME="02. Game of Words Coverage Results" MODIFIED="1655744148648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$directory_traversal__1_.coverage" NAME="directory_traversal (1) Coverage Results" MODIFIED="1655279289537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/testing/directory_traversal_" />
+    <SUITE FILE_PATH="coverage/lrn$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1656748065384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/Encapsulation - Exercise/restaurant_04/project" />
+    <SUITE FILE_PATH="coverage/lrn$02__Martian_Explorer.coverage" NAME="02. Martian Explorer Coverage Results" MODIFIED="1654116747484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$alone_old.coverage" NAME="alone_old Coverage Results" MODIFIED="1658762266456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/rooms" />
+    <SUITE FILE_PATH="coverage/lrn$young_couple.coverage" NAME="young_couple Coverage Results" MODIFIED="1658832109124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python OOP - Exercises/exam_prep/Python OOP Retake Exam - 22 Aug 2020/project/rooms" />
+    <SUITE FILE_PATH="coverage/lrn$02__Matrix_Modification.coverage" NAME="02. Matrix Modification Coverage Results" MODIFIED="1653518719751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Multidimensional Lists - Exercise 2" />
+    <SUITE FILE_PATH="coverage/lrn$02__Snake.coverage" NAME="02. Snake Coverage Results" MODIFIED="1655558772236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$02__Minesweeper_Generator.coverage" NAME="02. Minesweeper Generator Coverage Results" MODIFIED="1655636084878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/exam prep" />
+    <SUITE FILE_PATH="coverage/lrn$Email_Validator.coverage" NAME="Email Validator Coverage Results" MODIFIED="1654935145653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Error Handling" />
+    <SUITE FILE_PATH="coverage/lrn$06__Function_Executor.coverage" NAME="06. Function Executor Coverage Results" MODIFIED="1654004369138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SoftUni/Python-Advanced/Functions Advanced - Exercise" />
+    <SUITE FILE_PATH="coverage/lrn$02_Email_validator.coverage" NAME="02.Email_validator Coverage Results" MODIFIED="1654932586734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Download/Homework-Exercise Error Handling-1435100" />
   </component>
 </project>

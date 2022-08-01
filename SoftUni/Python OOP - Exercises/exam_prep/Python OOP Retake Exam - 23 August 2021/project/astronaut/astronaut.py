@@ -29,7 +29,8 @@ class Astronaut(ABC):
     def increase_oxygen(self, amount):
         self.oxygen += amount
 
-    def __repr__(self):
+    @property
+    def info(self):
         bag = ', '.join(self.backpack) if len(self.backpack) != 0 else "none"
         return f"Astronauts' info:\n" \
                f"Name: {self.name}\n" \

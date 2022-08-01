@@ -12,5 +12,5 @@ class AstronautRepository:
     def remove(self, astronaut: Astronaut):
         self.astronauts.remove(astronaut)
 
-    def find_by_name(self, name: str):
+    def find_by_name(self, name):
         return Validator.search_by_name(name, self.astronauts)
