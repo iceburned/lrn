@@ -65,12 +65,9 @@ class SpaceStation:
         return "Mission is not completed."
 
     def report(self):
-        astr_string = ''
-        for obj in self.astronaut_repository.astronauts:
-            astr_string += repr(obj)
         return f"{self.mission_successful} successful missions!\n" \
                f"{self.mission_unsuccessful} missions were not completed!\n" \
-               f"{astr_string}"
+               f"{''.join(obj.info for obj in self.astronaut_repository.astronauts)}"
 
 
 # s = SpaceStation()
@@ -80,12 +77,12 @@ class SpaceStation:
 # print(s.add_astronaut("Geodesist", "Sasho"))
 # print(s.add_astronaut("Meteorologist", "Teo"))
 # print(s.add_astronaut("Biologist", "Ivo"))
-# # print(s.retire_astronaut("Pesho"))
-# # print(s.retire_astronaut("Pesho"))
+# print(s.retire_astronaut("Pesho"))
+# print(s.retire_astronaut("Pesho"))
 # print(s.add_astronaut("Biologist", "Ivan"))
 # print(s.add_planet("Pluto", "knife, dog, paper"))
 # print(s.send_on_mission("Pluto"))
 # print(s.add_planet("Pluto", "knife, dog, paper"))
-# # s.recharge_oxygen()
+# s.recharge_oxygen()
 # print(s.report())
 # a = 1
