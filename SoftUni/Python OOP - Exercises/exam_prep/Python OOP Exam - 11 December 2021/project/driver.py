@@ -1,3 +1,4 @@
+from project.car.car import Car
 from project.core.validator import Validator
 
 
@@ -16,3 +17,15 @@ class Driver:
         Validator.check_for_empty_or_white_space(value,
                                                  "Name should contain at least one character!")
         self.__name = value
+
+    def change_car(self, car: Car):
+        car.is_taken = True
+        if self.car is None:
+            self.car = car
+            return f"Driver {self.name} chose the car {car.model}."
+
+        self.car.is_taken = False
+        old_model = self.car.model
+        self.car = car
+        return f"Driver {self.name} changed his car from {old_model} to {car.model}."
+
