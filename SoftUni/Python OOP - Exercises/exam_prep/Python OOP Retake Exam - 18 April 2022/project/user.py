@@ -26,17 +26,16 @@ class User:
         self.__age = value
 
     def __str__(self):
-        result = [f"Username: {self.username}, Age: {self.age}", "Liked movies:"]
+        result_str = [f'Username: {self.username}, Age: {self.age}', 'Liked movies:']
         if len(self.movies_liked) > 0:
             for liked in self.movies_liked:
-                result.append(liked.details())
+                result_str.append(liked.details())
         else:
-            result.append("No movies liked.")
-
-        result.append('Owned movies:')
+            result_str.append('No movies liked.')
+        result_str.append('Owned movies:')
         if len(self.movies_owned) > 0:
-            for el in self.movies_owned:
-                result.append(el.detaisl())
+            for owned in self.movies_owned:
+                result_str.append(owned.details())
         else:
-            result.append("No movies owned.")
-        return '\n'.join(result)
+            result_str.append('No movies owned.')
+        return '\n'.join(result_str)

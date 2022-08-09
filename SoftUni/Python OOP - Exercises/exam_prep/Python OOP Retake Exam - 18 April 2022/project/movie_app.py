@@ -119,3 +119,4 @@ class MovieApp:
             if obj.title == title:
                 return True
         return False
+
