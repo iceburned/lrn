@@ -18,9 +18,9 @@ class MovieApp:
     def upload_movie(self, username: str, movie: Movie):
         if not self.__name_in_lst(username, self.users_collection):
             raise Exception("This user does not exist!")
-        elif not self.__movie_in_lst(username, movie):
+        elif not username == movie.owner.username:
             raise Exception(f"{username} is not the owner of the movie {movie.title}!")
-        elif movie in self.movies_collection:
+        elif self.__check_if_movie_exist(movie.title):
             raise Exception("Movie already added to the collection!")
         else:
             user = self.user_in_list(username, self.users_collection)
@@ -29,18 +29,18 @@ class MovieApp:
             return f"{username} successfully added {movie.title} movie."
 
     def edit_movie(self, username: str, movie: Movie, **kwargs):
-        if not self.__movie_in_lst(username, movie):
+        if not username == movie.owner.username:
             raise Exception(f"{username} is not the owner of the movie {movie.title}!")
-        elif not self.__movie_in_lst(username, movie):
+        elif not self.__check_if_movie_exist(movie.title):
             raise Exception(f"The movie {movie.title} is not uploaded!")
         else:
             self.__change_attributes_of_movie(movie, kwargs)
             return f"{username} successfully edited {movie.title} movie."
 
     def delete_movie(self, username: str, movie: Movie):
-        if not self.__movie_in_lst(username, movie):
+        if not self.__check_if_movie_exist(movie.title):
             raise Exception(f"The movie {movie.title} is not uploaded!")
-        elif not self.__movie_in_lst(username, movie):
+        elif not username == movie.owner.username:
             raise Exception(f"{username} is not the owner of the movie {movie.title}!")
         else:
             title = movie.title
@@ -50,7 +50,7 @@ class MovieApp:
             return f"{username} successfully deleted {title} movie."
 
     def like_movie(self, username: str, movie: Movie):
-        if self.__movie_in_lst(username, movie):
+        if username == movie.owner.username:
             raise Exception(f"{username} is the owner of the movie {movie.title}!")
         user = self.user_in_list(username, self.users_collection)
         if movie in user.movies_liked:
@@ -68,8 +68,8 @@ class MovieApp:
         return f"{username} disliked {movie.title} movie."
 
     def display_movies(self):
-        movies = sorted(self.movies_collection, key=lambda x: (x.year, x.title), reverse=True)
-        if len(movies) <= 0:
+        movies = sorted(self.movies_collection, key=lambda x: (-x.year, x.title))
+        if len(movies) == 0:
             return "No movies found."
         all_movies = []
         for obj in movies:
@@ -78,17 +78,16 @@ class MovieApp:
 
     def __str__(self):
         result = "All users: "
-        if len(self.users_collection) <= 0:
+        if len(self.users_collection) == 0:
             result += "No users."
         else:
             result += ', '.join([_.username for _ in self.users_collection])
         result_2 = "All movies: "
-        if len(self.movies_collection) <= 0:
+        if len(self.movies_collection) == 0:
             result_2 += "No movies."
         else:
             result_2 += ', '.join([_.title for _ in self.movies_collection])
         return result + "\n" + result_2
-
 
     @staticmethod
     def __name_in_lst(username, collection):
@@ -115,3 +114,8 @@ class MovieApp:
             setattr(movie, k, v)
         return movie
 
+    def __check_if_movie_exist(self, title):
+        for obj in self.movies_collection:
+            if obj.title == title:
+                return True
+        return False
