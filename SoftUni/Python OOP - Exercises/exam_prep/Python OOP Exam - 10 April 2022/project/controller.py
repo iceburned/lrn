@@ -1,4 +1,4 @@
-from project.core.validator import Validator
+
 
 
 class Controller:
@@ -7,78 +7,88 @@ class Controller:
         self.supplies = []
 
     def add_player(self, *args):
-        lst = []
-        for el in args:
-            if el in self.players:
-                continue
-            self.players.append(el)
-            lst.append(el)
-        return f"Successfully added: {', '.join([_.name for _ in lst])}"
+        players = []
+        for player in args:
+            if player not in self.players:
+                players.append(player.name)
+                self.players.append(player)
+        return f"Successfully added: {', '.join(players)}"
 
     def add_supply(self, *args):
-        for el in args:
-            self.supplies.append(el)
+        self.supplies.extend(args)
 
-    def sustain(self, player_name: str, sustenance_type: str):
-        allowed_sustenance_type = ["Food", "Drink"]
-        player = Validator.find_by_name(player_name, self.players)
+    def sustain(self, player_name, sustenance_type):
+        player = self.__player_present(player_name)
         if player is None:
             return
-        if not player.need_sustenance:
-            return f"{player.name} have enough stamina."
-        if sustenance_type not in allowed_sustenance_type:
-            return
-        last_supply = Validator.last_supply_from_same_type(sustenance_type, self.supplies)
-        if last_supply is None:
-            return f"There are no {sustenance_type} supplies left!"
-        player.stamina = min(player.stamina + last_supply.energy, 100)
-        for _ in range(len(self.supplies) - 1, -1, -1):
-            if self.supplies[_] == last_supply:
-                self.supplies.pop(_)
-                break
-        return f"{player_name} sustained successfully with {last_supply.name}."
+        if player.stamina == 100:
+            return f"{player_name} have enough stamina."
+        supply = self.__last_supply_taken(sustenance_type)
+        if supply:
+            player._player_sustain(supply)
+            return f"{player_name} sustained successfully with {supply.name}."
 
-    def duel(self, first_player_name: str, second_player_name: str):
-        player1 = Validator.find_by_name(first_player_name, self.players)
-        player2 = Validator.find_by_name(second_player_name, self.players)
-        stamina_check_player1 = Validator.stamina_less_than(player1.stamina,
-                                                            1,
-                                                            f"Player {player1.name} does not have enough stamina.")
-        stamina_check_player2 = Validator.stamina_less_than(player2.stamina,
-                                                            1,
-                                                            f"Player {player2.name} does not have enough stamina.")
-        if stamina_check_player1 is not None:
-            return stamina_check_player1
-        if stamina_check_player2 is not None:
-            return stamina_check_player2
-        order_of_attack = [player1, player2]
-        first, second = sorted(order_of_attack, key=lambda x: x.stamina)
-        second.stamina = second.stamina - first.stamina / 2
-        if first.stamina <= 0:
-            first.stamina = 0
-            return f"Winner: {second.name}"
-        first.stamina = first.stamina - second.stamina / 2
-        if second.stamina <= 0:
-            second.stamina = 0
-            return f"Winner: {first.name}"
-        winner = first if first.stamina > second.stamina else second
-        return f"Winner: {winner.name}"
+    def duel(self, first_player_name, second_player_name):
+        first_player = self.__player_present(first_player_name)
+        second_player = self.__player_present(second_player_name)
+        result = self.__player_can_fight(first_player, second_player)
+        if result:
+            return result
+        if first_player.stamina < second_player.stamina:
+            return self.__attack_player(first_player, second_player)
+        else:
+            return self.__attack_player(second_player, first_player)
 
     def next_day(self):
-        for el in self.players:
-            stamina = el.stamina
-            age = el.age
-            if el.stamina - (age * 2) <= 0:
-                el.stamina = 0
+        for obj in self.players:
+            if obj.stamina - (obj.age * 2) < 0:
+                obj.stamina = 0
             else:
-                el.stamina = stamina - (age * 2)
-            self.sustain(el.name, "Food")
-            self.sustain(el.name, "Drink")
+                obj.stamina -= (obj.age * 2)
+        for player in self.players:
+            self.sustain(player.name, "Food")
+            self.sustain(player.name, "Drink")
 
     def __str__(self):
-        lst = ''
-        for el in self.players:
-            lst += str(el) + "\n"
-        for el in self.supplies:
-            lst += el.details() + "\n"
-        return lst
+        answer = []
+        for p in self.players:
+            answer.append(p.__str__())
+        for s in self.supplies:
+            answer.append(s.details())
+        result = '\n'.join(answer)
+        return result
+
+    def __player_present(self, name):
+        for obj in self.players:
+            if obj.name == name:
+                return obj
+        return None
+
+    def __last_supply_taken(self, item_type):
+        for i in range(len(self.supplies) - 1, -1, -1):
+            if type(self.supplies[i]).__name__ == item_type:
+                return self.supplies.pop(i)
+        if item_type == "Food":
+            raise Exception("There are no food supplies left!")
+        elif item_type == "Drink":
+            raise Exception("There are no drink supplies left!")
+
+    @staticmethod
+    def __player_can_fight(*args):
+        answer = []
+        for obj in args:
+            if obj.stamina == 0:
+                answer.append(f"Player {obj.name} does not have enough stamina.")
+        return '\n'.join(answer)
+
+    @staticmethod
+    def __attack_player(p1, p2):
+        p2.stamina -= p1.stamina / 2
+        if p1.stamina - (p2.stamina / 2) < 0:
+            p1.stamina = 0
+        else:
+            p1.stamina -= p2.stamina / 2
+        if p1.stamina < p2.stamina:
+            return f"Winner: {p2.name}"
+        else:
+            return f"Winner: {p1.name}"
