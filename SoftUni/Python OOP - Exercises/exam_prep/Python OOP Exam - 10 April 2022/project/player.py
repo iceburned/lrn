@@ -1,16 +1,11 @@
-from project.controller import Controller
-from project.core.validator import Validator
+from project.supply.supply import Supply
 
 
 class Player:
-    _UNDER_AGE = 12
-    _LESS_THAN = 0
-    _MORE_THAN = 100
-    _LESS_THAN_BOOL = 100
-    _USED_NAMES = set()
+    PLAYERS_NAMES = []
 
     def __init__(self, name, age, stamina=100):
-        self.controller = Controller()
+
         self.name = name
         self.age = age
         self.stamina = stamina
@@ -21,11 +16,11 @@ class Player:
 
     @name.setter
     def name(self, value):
-        if not value:
+        if value == '':
             raise ValueError("Name not valid!")
-        if value in self._USED_NAMES:
+        elif value in Player.PLAYERS_NAMES:
             raise Exception(f"Name {value} is already used!")
-        self._USED_NAMES.add(value)
+        Player.PLAYERS_NAMES.append(value)
         self.__name = value
 
     @property
@@ -34,9 +29,8 @@ class Player:
 
     @age.setter
     def age(self, value):
-        Validator.value_less_than(value,
-                                  self._UNDER_AGE,
-                                  f"The player cannot be under {self._UNDER_AGE} years old!")
+        if value < 12:
+            raise ValueError("The player cannot be under 12 years old!")
         self.__age = value
 
     @property
@@ -45,14 +39,19 @@ class Player:
 
     @stamina.setter
     def stamina(self, value):
-        Validator.less_than_or_more_than(value, self._LESS_THAN, self._MORE_THAN, "Stamina not valid!")
+        if not 0 <= value <= 100:
+            raise ValueError("Stamina not valid!")
         self.__stamina = value
-    
+
     @property
     def need_sustenance(self):
-        if self.stamina < 100:
-            return True
-        return False
+        return self.__stamina < 100
+
+    def _player_sustain(self, supply: Supply):
+        if self.stamina + supply.energy > 100:
+            self.stamina = 100
+        else:
+            self.stamina += supply.energy
 
     def __str__(self):
         return f"Player: {self.name}, {self.age}, {self.stamina}, {self.need_sustenance}"
