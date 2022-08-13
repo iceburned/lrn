@@ -15,7 +15,7 @@ class Pizza:
 
     @name.setter
     def name(self, value):
-        if value == '':
+        if value == "":
             raise ValueError("The name cannot be an empty string")
         self.__name = value
 
@@ -26,7 +26,7 @@ class Pizza:
     @dough.setter
     def dough(self, value):
         if value is None:
-            raise ValueError("The name cannot be an empty string")
+            raise ValueError("You should add dough to the pizza")
         self.__dough = value
 
     @property
@@ -42,10 +42,11 @@ class Pizza:
     def add_topping(self, topping: Topping):
         if len(self.toppings) == self.toppings_capacity:
             raise ValueError("Not enough space for another topping")
-        if topping.topping_type in self.toppings:
-            self.toppings[topping.topping_type] += topping.weight
-        else:
-            self.toppings[topping.topping_type] = topping.weight
+        if topping.topping_type not in self.toppings:
+            self.toppings[topping.topping_type] = 0
+        self.toppings[topping.topping_type] += topping.weight
 
     def calculate_total_weight(self):
-        return sum(self.toppings.values()) + self.dough.weight
+        toppings_weight = sum(self.toppings.values())
+        total_weight = toppings_weight + self.dough.weight
+        return total_weight

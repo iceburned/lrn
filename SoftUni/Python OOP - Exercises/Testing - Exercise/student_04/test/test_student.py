@@ -75,18 +75,15 @@ class TestStudent(TestCase):
         self.assertEqual("Notes have been updated", result)
         self.assertEqual(["note1", "note2", "note3"], student.courses[course_name])
 
-    def test_leave_course(self):
-        self.student.enroll("Python Basic", [])
-        with self.assertRaises(Exception) as error:
-            self.student.leave_course("Python Advanced")
-            self.assertEqual("Cannot remove course. Course not found.", str(error.exception))
-
-    def test_leave_course_removed_when_student_enrolled(self):
-        course_name = "Python Advanced"
-        student = Student(self.STUDENT_NAME, {course_name: []})
-        result = student.leave_course(course_name)
+    def test_leave_course_if_course_name_in_courses(self):
+        result = self.student.leave_course("Python")
+        self.assertEqual({}, self.student.courses)
         self.assertEqual("Course has been removed", result)
-        self.assertTrue(course_name not in student.courses)
+
+    def test_leave_course_if_course_name_not_in_courses_raises(self):
+        with self.assertRaises(Exception) as ex:
+            self.student.leave_course("C#")
+        self.assertEqual("Cannot remove course. Course not found.", str(ex.exception))
 
 
 if __name__ == "name":
