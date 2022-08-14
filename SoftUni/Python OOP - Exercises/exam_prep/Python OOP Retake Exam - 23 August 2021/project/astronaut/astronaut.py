@@ -32,7 +32,6 @@ class Astronaut(ABC):
     @property
     def info(self):
         bag = ', '.join(self.backpack) if len(self.backpack) != 0 else "none"
-        return f"Astronauts' info:\n" \
-               f"Name: {self.name}\n" \
+        return f"Name: {self.name}\n" \
                f"Oxygen: {self.oxygen}\n" \
                f"Backpack items: {bag}\n"
